@@ -6,8 +6,10 @@ verified with a self-checking testbench in Xilinx Vivado.
 ## Files
 - uart_tx.v: UART transmitter (states: IDLE, START, DATA, STOP)
 - tb_uart_tx.v: self-checking testbench
-- uart_tx_waveform.png: simulation waveform - ![waveform](uart_tx_waveform.png)
-- uart_tx_pass_log.png: console output (all tests passed) - ![console log](uart_tx_pass_log.png)
+- uart_tx_waveform.png: simulation waveform - 
+![waveform](uart_tx_waveform.png)
+- uart_tx_pass_log.png: console output (all tests passed) - 
+![console log](uart_tx_pass_log.png)
 
 ## Test
 Sent 5 bytes (0x41, 0x55, 0xA3, 0xFF, 0x00). The testbench samples the
